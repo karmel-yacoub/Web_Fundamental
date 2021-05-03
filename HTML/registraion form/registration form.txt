@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            regestration form
+        </title>
+    </head>
+    <body>
+      <h1> My Rigistration Form</h1>  
+      
+    </body>
+   <form>
+        <lable for="first-name">First Name</lable>
+        <input type= "text" name="first-name" id="first-name"> <br>
+
+        <lable for="last-name">Last Name</lable>
+        <input type= "text" name="last-name" id="last-name"> <br>
+
+        <lable for="email"> Email</lable>
+        <input type="email" name="email" id="email"> <br>
+
+        <lable for="password"> password</lable>
+        <input type ="password" name="password" id="password"> <br>
+
+        <lable for="pw-confirm">PW confirm</lable>
+        <input type="text" name="pw-confirm" id="pw-confirm"> <br>
+
+        <lable for="birthday">Birthday</lable>
+        <input type="date" name="birthday" id="birthday"> <br>
+
+        <lable for="male">Male</lale>
+        <input type="radio" name="gender" id="male"> <br>
+
+        <lable for="female">Female</lable>
+        <input type="radio"name="gender" id="female"> <br>
+
+        <lable for="other">Other</lable>
+        <input type="radio" name="gender" id="other"> <br>
+
+        <p>a short describtion about youreself</p>
+        <textarea name="discription"> </textarea> 
+
+        <lable for="fav">favorite language</lable>  
+        <select name="fav" id=fav> 
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="python">python</option>
+        </select> <br>
+        
+        <input type="submit" value="submit">
+
+        </form>
+</html>

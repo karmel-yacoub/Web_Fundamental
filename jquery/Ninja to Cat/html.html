@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+            var temp=$(this).attr('src');
+            console.log(temp);
+            $(this).attr('src',$(this).attr('alt'));
+            $(this).attr('alt',temp);
+            console.log($(this).attr('src'));
+
+
+});
+        });
+    </script>
+
+</head>
+<body>
+    <h1>Assignment: Ninja to Cat</h1>
+    <div class="images">
+        <img src="cat0.png" alt="ninja0.png"><br>
+        <img src="cat1.png" alt="ninja1.png"><br>
+        <img src="ninja2.png" alt="at2.png"><br>
+        <img src="ninja3.png" alt="cat3.png"><br>
+        <img src="ninja4.png" alt="cat4.png"><br>
+    </div>
+</body>
+</html>

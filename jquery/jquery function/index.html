@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+     <script>
+         $(document).ready(function(){
+
+            $("img").hide();
+
+             $('.bt1').click(function(){
+                 $('.red').addClass('intro');
+        
+             });
+             $('.bt2').click(function(){
+                 $("img").slideToggle();
+             });
+
+             $('.bt3').click(function(){
+                 $(".append p").append("paragraph2");
+
+             })
+
+         });
+     </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <div class="addaclass">
+    <h1>AddClass</h1>
+    <button class="bt1">addclass</button>
+    <p class="red"> the button to add class 'red' to this paragraph</p>
+    <div class="box"></div>
+        </div>
+        <div class="slidetoggle">
+    <h1>slidetoggle</h1>
+    <button class="bt2">slidetoggle</button>
+    <p>Click the button to slidetoggle a hidden image</p>
+    <img src="flower.jpg" alt="flower">
+    <div class="box"></div>
+         </div>
+          <div class="append">
+         <h1>append</h1>
+        <button class="bt3">append</button>
+        <p>Click the button to append a new paragraph!</p>
+    </div>        
+    </div>
+    </center>
+</body>
+</html>

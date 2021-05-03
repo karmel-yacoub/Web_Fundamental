@@ -1,0 +1,143 @@
+main{
+    background-image: linear-gradient(#201014,#6f5964,#1e0e12);
+    width: 950px;
+    height: 900px;
+    padding:0px;
+    margin:0 auto;
+    position: relative;
+    bottom: 8px;
+}
+.header{
+    background-color:#fafafa;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
+   
+
+
+}
+.header h1{
+    text-align: center;
+    margin:0px;
+   font-family: cursive;
+}
+.header h2{
+    margin: 10px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+
+}
+.content img{
+    height: 210px;
+    width:400px;
+    display: inline-block;
+    border: 5px solid #c0c0c0;
+}
+.content p{
+    background-color: #f0eaf0;
+    height:165px ;
+    width:420px;
+    margin-top: 0px;
+    padding: 10px;
+
+}
+ h3{
+    background-image:lineargradient(#a09fa7,#b4b4b7,#a09fa7);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    padding: 5px;
+}
+.test{
+    width: 950px;
+    display:flex;
+    justify-content: space-evenly;
+    
+
+}
+.test h2{
+    background-color:#96959f;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px;
+}
+.nav{
+    display: flex;
+    flex: 1;
+}
+.test img{
+    
+    width: 290px;
+}
+
+
+.section1{
+    width: 290px;
+    height: 560px;
+    background-color:#dfd2de;
+
+
+}
+.section1 p{
+    padding: 10px;
+    margin: 0px;
+}
+.test2 h3{
+    background-color:#95949e;
+    color: white;
+
+    
+}
+.img{
+   height: 100px;
+   width: 290px;
+}
+.img img{
+    width: 40px;
+    height: 40px;
+    margin:5px;
+}
+.section1 a{
+    background-color:#407d61;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    
+    margin-left: 110px;
+}
+.footer{
+    background: colo #f9f9f9;;
+    height: 80px;
+    
+    
+}
+.footer img{
+    margin-bottom: -6px;
+    height: 16px;
+    width: 20px;
+}
+.lamode{
+    height:400px;
+}
+.footer p{
+    margin-left: 366px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+
+}
+.footerimg{
+margin-left: 350px;
+}
+span{
+    text-decoration: underline;
+    color: black;
+}
